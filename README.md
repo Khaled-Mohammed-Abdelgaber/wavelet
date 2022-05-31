@@ -20,14 +20,14 @@ resulted from wavelet transsform
 represent the data from excel 
 #### datasetNum
 represent the number of datasets
-#### T
+#### T:
 length of each signal 
-#### J 
+#### J: 
 maximum scale is 2**j must be less than T
-#### axis
+#### axis:
 if axis = 0 mean one dataset stored as row 
 if axis = 1 mean one dataset stored as column
-#### Q
+#### Q:
 * controls the number of wavelets per octave in the first-order filter bank.
 * The larger the value, the narrower these filters are in the frequency domain 
           and the wider they are in the time domain
@@ -37,5 +37,5 @@ if axis = 1 mean one dataset stored as column
         and are better localized in frequency than they are in time.
 * Note that it is currently not possible to control the number
         of wavelets per octave in the second-order filter bank, which is fixed to one.
-#### order 
+#### order: 
 represent the needed order to be returned
